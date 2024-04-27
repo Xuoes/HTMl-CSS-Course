@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Tweet</title>
+
+    <style>
+
+      .image {
+        border-radius: 50px;
+        width: 50px;
+        height: 50px;
+        display: inline-block;
+        vertical-align: middle;
+      }
+
+      .texting {
+        border: none;
+        font-size: 16px;
+        vertical-align: middle;
+        width: 275px;
+      }
+
+      .tweet-button {
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: bold;
+        color: white;
+        background-color: rgb(45, 152, 214);
+        vertical-align: middle;
+        font-size: 15px;
+        transition: background-color .1s;
+
+      }
+
+      .tweet-button:active {
+        background-color: rgb(27, 96, 136);
+      }
+
+      .tweeting-box {
+        width: 400px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 8px;
+        display: block;
+        border: none;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.35);
+        margin-bottom: 19px;
+      }
+
+
+
+      .add-freind-box {
+        height: 305px;
+        margin-right: 10px;
+        display: inline-block;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.55);
+        font-family: Arial;
+        overflow: hidden;
+      }
+
+      .friend-picture {
+        width: 160px;
+        
+      }
+      
+      .user-Name {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 0px;
+        font-weight: bold;
+        
+      }
+
+      .mutual-friends {
+        margin-top: 5px;
+        margin-left: 5px;
+        margin-bottom: 8px;
+        font-size: 13px;
+        color: gray;
+      }
+
+      .add-button {
+        margin-left: 5px;
+        width: 110px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border: none;
+        border-radius: 3px;
+        background-color: rgb(49, 165, 204);
+        color: white;
+      }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <div class="tweeting-box">
+      <img class="image"src="cat.png" >
+
+      <input class="texting" placeholder="What's happening?">
+
+      <button class="tweet-button">
+        Tweet
+      </button>
+    </div>
+
+    <div class="add-freind-box">
+      <img class="friend-picture"src="cat.png">
+      <p class="user-Name"> Oliver </p>
+      <p class="mutual-friends"> 2 mutual friends </p>
+      <button class="add-button"> Add Friend</button>
+    </div>
+
+    <div class="add-freind-box">
+      <img class="friend-picture"src="cat.png">
+      <p class="user-Name"> Mimi </p>
+      <p class="mutual-friends"> 3 mutual friends </p>
+      <button class="add-button"> Add Friend</button>
+    </div>
+
+    <div class="add-freind-box">
+      <img class="friend-picture"src="cat.png">
+      <p class="user-Name"> Rex </p>
+      <p class="mutual-friends"> 4 mutual friends </p>
+      <button class="add-button"> Add Friend</button>
+    </div>
+
+  </body>
+
+</html>
